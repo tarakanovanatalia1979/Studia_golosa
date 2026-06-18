@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap');
 :root{
   --cream:#FAF8F3; --paper:#fff; --ink:#2D2D2D; --muted:#6f685f; --gold:#E6A93A; --wood:#B48252; --line:#eadfce;
   --radius:28px; --shadow:0 20px 60px rgba(45,45,45,.10);
@@ -1172,4 +1173,31 @@ body{background:#fffaf1;overflow-x:hidden}
     display:block;
     width:100%;
     height:100%;
+}
+.hero h1{
+  font-family:'Playfair Display', serif !important;
+  font-weight:700 !important;
+}
+
+.section h2,
+.lead h2,
+.contacts h2,
+.price-grid article h3{
+  font-family:'Playfair Display', serif !important;
+}
+
+.hero-subtitle{
+  font-family:'Caveat', cursive !important;
+  font-size:clamp(38px,4vw,58px) !important;
+  font-weight:700 !important;
+  line-height:1.1 !important;
+}
+
+.stats strong{
+  font-size:54px !important;
+  font-weight:900 !important;
+}
+
+.btn{
+  letter-spacing:.02em;
 }
